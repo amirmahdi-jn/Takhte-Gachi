@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173e36">
+  <title>تخته‌بازی | بازی گروهی نقاشی و حدس</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="تخته‌بازی">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>تخته<span class="brand-light">بازی</span><small>بکش، حدس بزن، بخند!</small></span>
+    </a>
+    <nav class="main-nav">
+      <button class="nav-link active" data-view="home">خانه</button>
+      <button class="nav-link" data-view="ranking">جدول امتیازات</button>
+      <button class="nav-link" data-view="shop">فروشگاه</button>
+    </nav>
+    <div class="top-actions">
+      <div class="coin-pill">💎 <b>۲۴۰</b></div>
+      <button class="profile-btn" id="profileBtn"><span class="avatar avatar-me">م</span><span class="profile-name">مهمان بازیکن</span><span>⌄</span></button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> زمین بازی خلاقیت</div>
+        <h1>اینجا هر خط،<br><em>یه ماجراست!</em></h1>
+        <p>قلم دست بگیر، دوستات رو خبر کن و ببین کی بهتر از همه می‌تونه با چند خط ساده، یه کلمه رو برسونه.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="quickPlay">🎨 شروع بازی سریع <span>←</span></button>
+          <button class="btn btn-glass" id="createRoom">＋ ساخت اتاق خصوصی</button>
+        </div>
+        <div class="hero-stats"><span><b class="online-dot"></b> <strong>۱٬۲۸۴</strong> بازیکن آنلاین</span><span class="stat-divider"></span><span>⭐ <strong>۳ حالت</strong> هیجان‌انگیز</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="chalk-scribble scribble-one">✦</div><div class="chalk-scribble scribble-two">〰</div>
+        <div class="art-board">
+          <div class="board-pin"></div>
+          <div class="art-board-top"><span>وقت هنرنماییه!</span><span class="tiny-stars">✦ ✧ ✦</span></div>
+          <div class="doodle-scene">
+            <svg viewBox="0 0 430 245" role="img" aria-label="نقاشی رنگی خانه و خورشید">
+              <path d="M55 176 L145 91 L235 176 V225 H55 Z" fill="none" stroke="#ffe6a1" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+              <path d="M128 225 V170 Q145 148 164 170 V225" fill="none" stroke="#ff9d70" stroke-width="7"/>
+              <rect x="77" y="164" width="37" height="34" rx="3" fill="none" stroke="#8edbd0" stroke-width="6"/>
+              <path d="M270 214 Q300 168 330 214 Q360 160 395 214" fill="none" stroke="#8edbd0" stroke-width="7" stroke-linecap="round"/>
+              <circle cx="327" cy="70" r="31" fill="none" stroke="#ffd36f" stroke-width="7"/>
+              <path d="M327 20 V7 M327 133 V120 M277 70 H263 M391 70 H377 M292 35 L282 25 M372 115 L362 105 M362 35 L372 25 M282 115 L292 105" stroke="#ffd36f" stroke-width="6" stroke-linecap="round"/>
+              <path d="M38 83 Q52 63 73 82 Q91 58 111 80" fill="none" stroke="#f5f1e6" stroke-width="6" stroke-linecap="round"/>
+              <path d="M224 53 l7 14 15 2 -11 10 3 15 -14 -7 -13 7 3 -15 -11 -10 15 -2z" fill="#f5a0c2"/>
+            </svg>
+          </div>
+          <div class="art-board-bottom"><span>✎</span> شاهکار بعدی مال توئه</div>
+        </div>
+        <div class="floating-note note-yellow">حدس زدی؟ <b>+۱۰</b></div>
+        <div class="floating-note note-pink">🎉 آفرین!</div>
+      </div>
+    </section>
+
+    <section class="section-head"><div><span class="section-kicker">انتخاب با توئه</span><h2>چه جوری بازی کنیم؟</h2></div><span class="section-side">سه راه برای کلی خنده <b>✦</b></span></section>
+    <section class="mode-grid">
+      <article class="mode-card mode-classic">
+        <div class="mode-icon">🖍️</div><div class="mode-tag">محبوب همه</div>
+        <h3>بازی کلاسیک</h3><p>یکی می‌کشه، بقیه حدس می‌زنن. ساده و پرهیجان!</p>
+        <div class="mode-meta"><span>👥 ۴ بازیکن</span><span>⏱ ۴ دور</span></div>
+        <button class="mode-play" data-mode="classic">انتخاب حالت <b>←</b></button>
+        <span class="card-doodle">✳</span>
+      </article>
+      <article class="mode-card mode-survival">
+        <div class="mode-icon">❤️</div><div class="mode-tag">رقابت نفس‌گیر</div>
+        <h3>آخرین بازمانده</h3><p>حواست به قلب‌هات باشه؛ فقط یکی قهرمان می‌شه.</p>
+        <div class="mode-meta"><span>👥 ۶ بازیکن</span><span>🏆 حذفی</span></div>
+        <button class="mode-play" data-mode="survival">انتخاب حالت <b>←</b></button>
+        <span class="card-doodle">♡</span>
+      </article>
+      <article class="mode-card mode-secret">
+        <div class="mode-icon">🕵️</div><div class="mode-tag">ذهن‌خوانی و بلوف</div>
+        <h3>نقاش مخفی</h3><p>یکی کلمه رو نمی‌دونه؛ می‌تونی پیداش کنی؟</p>
+        <div class="mode-meta"><span>👥 ۴ بازیکن</span><span>🎭 نقش مخفی</span></div>
+        <button class="mode-play" data-mode="secret">انتخاب حالت <b>←</b></button>
+        <span class="card-doodle">?</span>
+      </article>
+    </section>
+
+    <section class="lower-grid">
+      <div class="panel room-panel">
+        <div class="panel-head"><div><span class="section-kicker">با رفقا دور هم</span><h2>اتاق بازی</h2></div><span class="live-label"><i></i> ۱۲ اتاق فعال</span></div>
+        <div class="room-row"><div class="room-symbol">🎨</div><div class="room-info"><b>دورهمی هنرمندا</b><small>میزبان: آرتیست · کلاسیک</small></div><div class="room-players"><span class="avatar a1">ن</span><span class="avatar a2">ع</span><span class="avatar a3">س</span><span class="avatar more">+۱</span></div><button class="join-btn" data-join="دورهمی هنرمندا">ورود</button></div>
+        <div class="room-row"><div class="room-symbol purple">🧠</div><div class="room-info"><b>حدس‌بازهای حرفه‌ای</b><small>میزبان: پیکاسو · نقاش مخفی</small></div><div class="room-players"><span class="avatar a4">م</span><span class="avatar a5">ر</span><span class="avatar more">+۲</span></div><button class="join-btn" data-join="حدس‌بازهای حرفه‌ای">ورود</button></div>
+        <button class="all-rooms" id="allRooms">مشاهده همه اتاق‌ها <span>←</span></button>
+      </div>
+      <div class="panel leaderboard-panel">
+        <div class="panel-head"><div><span class="section-kicker">این هفته</span><h2>قهرمان‌های تخته</h2></div><span class="trophy">🏆</span></div>
+        <div class="leader-row"><span class="rank gold">۱</span><span class="avatar a2">آ</span><b>آرتیست</b><strong>۲٬۴۸۰</strong></div>
+        <div class="leader-row"><span class="rank silver">۲</span><span class="avatar a4">پ</span><b>پیکاسو</b><strong>۲٬۱۲۰</strong></div>
+        <div class="leader-row"><span class="rank bronze">۳</span><span class="avatar a1">ن</span><b>نقاش‌کوچولو</b><strong>۱٬۹۸۰</strong></div>
+        <button class="all-rooms" data-view="ranking">دیدن جدول کامل <span>←</span></button>
+      </div>
+    </section>
+    <footer><span>© ۲۰۲۶ تخته‌بازی</span><span>ساخته‌شده برای لحظه‌های رنگی <b>♥</b></span><span>قوانین بازی · راهنما · پشتیبانی</span></footer>
+  </main>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="بستن">×</button>
+      <div class="modal-emoji" id="modalEmoji">🎨</div><h2 id="modalTitle">آماده‌ای بازی کنیم؟</h2><p id="modalText">یک اسم برای خودت انتخاب کن و وارد جمع شو.</p>
+      <label class="field-label" for="playerName">اسم بازیکن</label><input id="playerName" maxlength="18" placeholder="مثلاً: نقاش کوچولو">
+      <div class="modal-actions"><button class="btn btn-primary" id="modalConfirm">بزن بریم!</button><button class="btn btn-muted" id="modalCancel">فعلاً نه</button></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
